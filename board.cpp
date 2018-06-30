@@ -78,7 +78,7 @@ Winners Board::is_win()
 
 			if (cells_x == (FIELD_SIZE / 2))
 				return X_WIN;
-			else if(cells_o == (FIELD_SIZE / 2))
+			else if (cells_o == (FIELD_SIZE / 2))
 				return O_WIN;
 		}
 
@@ -142,7 +142,7 @@ Winners Board::is_win()
 
 			if (cells_x == (FIELD_SIZE / 2))
 				return X_WIN;
-			else if(cells_o == (FIELD_SIZE / 2))
+			else if (cells_o == (FIELD_SIZE / 2))
 				return O_WIN;
 
 			i++;
@@ -176,7 +176,7 @@ Winners Board::is_win()
 
 			if (cells_x == (FIELD_SIZE / 2))
 				return X_WIN;
-			else if(cells_o == (FIELD_SIZE / 2))
+			else if (cells_o == (FIELD_SIZE / 2))
 				return O_WIN;
 
 			i++;
