@@ -1,8 +1,6 @@
 #include "board.h"
 
-
 const int Board::FIELD_SIZE = 10;
-
 
 Board::Board()
 {
@@ -12,7 +10,6 @@ Board::Board()
 			b[i][j] = SPACE;
 	}
 }
-
 
 bool Board::make_move(int x, int y, Signs s)
 {
@@ -25,12 +22,10 @@ bool Board::make_move(int x, int y, Signs s)
 	}
 }
 
-
 int Board::get_size() const
 {
 	return FIELD_SIZE;
 }
-
 
 Winners Board::is_win()
 {
@@ -244,7 +239,6 @@ Winners Board::is_win()
 	no_draw:
 	return NO_WIN;
 }
-
 
 int Board::get_cell(int x, int y) const
 {

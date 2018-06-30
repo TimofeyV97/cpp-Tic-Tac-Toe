@@ -1,8 +1,6 @@
 #include "board.h"
 #include "board_view.h"
 
-
-
 int main()
 {
 	Board b;

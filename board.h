@@ -1,10 +1,8 @@
 #ifndef BOARD_H
 #define BOARD_H
 
-
 enum Winners {X_WIN, O_WIN, DRAW, NO_WIN};
 enum Signs {X, O, SPACE};
-
 
 class Board
 {
@@ -19,6 +17,5 @@ public:
 	Winners is_win();
 	int get_cell(int x, int y) const;
 };
-
 
 #endif

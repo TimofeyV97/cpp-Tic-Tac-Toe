@@ -1,12 +1,10 @@
 #include <cstdio>
 #include "board_view.h"
 
-
 Board_view::Board_view(Board *b)
 {
 	board = b;
 }
-
 
 void  Board_view::show()
 {
@@ -39,7 +37,6 @@ void  Board_view::show()
 
 	printf("\n\n");
 }
-
 
 void Board_view::start_game()
 {
